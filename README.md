@@ -1,70 +1,65 @@
-# Getting Started with Create React App
+## Oerview 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This repository contans the fronted code of NXTUP website. 
 
-## Available Scripts
+* It's powerd by [Next.js](https://nextjs.org/)
+* It uses [Tailwind](https://tailwindcss.com/) CSS framework.
+* It's built use CRA and deployed with [Vercel](https://vercel.com/)
+* It's code primarily written using the [React.js](https://react.dev/) library.
 
-In the project directory, you can run:
+## Requirements 
 
-### `npm start`
+Use the following tools to set up this project: 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+* Node.js v20.12.0+
+* npm v10.5.0+
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Run Locally 
 
-### `npm test`
+1. Fork the repository by clicking on `Fork` option on the top right of the main repository.
+  
+2. Open Command Prompt or Terminal on you Windows or MacOS.
+  
+3. Clone the forked repository by adding you own GitHub username in place of `<username>`. For multiple contribution it is recomment to have [proper configuration of the forked repo](https://github.com/nxtuporg/community/blob/main/git-workflow.md).
+```bash
+git clone https://github.com/<username>/frontend/
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+4. Navigate to the frontend directory.
+```bash
+    cd frontend
+```
 
-### `npm run build`
+5. Install all website dependencies
+```bash
+npm install
+```
+       `or`
+```bash
+   npm i
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+6. Run the website locally.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+    npm run dev
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+7. Access the live development server at [localhost:3000](http://localhost:3000).
 
-### `npm run eject`
+### Build
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. To build a production-ready website, run the following command:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+npm run build
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## License
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+This project's source code is licensed under the Apache License, Version 2.0. A copy of the
+license is available in LICENSE file.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project's documentation is licensed under the Creative Commons Attribution
+4.0 International License (CC-BY-4.0). A copy of the license is available in
+LICENSE-docs.
