@@ -34,11 +34,6 @@ git clone https://github.com/<username>/frontend/
 ```bash
 npm install
 ```
-    or
-    
-```bash
-   npm i
-```
 
 6. Run the website locally.
 
