@@ -32,7 +32,7 @@ git clone https://github.com/<username>/frontend/
 
 5. Install all website dependencies
 ```bash
-npm install
+    npm install
 ```
 
 6. Run the website locally.
