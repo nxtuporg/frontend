@@ -34,7 +34,8 @@ git clone https://github.com/<username>/frontend/
 ```bash
 npm install
 ```
-       `or`
+    or
+    
 ```bash
    npm i
 ```
