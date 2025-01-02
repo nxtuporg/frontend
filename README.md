@@ -2,17 +2,17 @@
 
 This repository contans the fronted code of NXTUP website. 
 
-* It's powerd by [Next.js](https://nextjs.org/)
-* It uses [Tailwind](https://tailwindcss.com/) CSS framework.
-* It's built use CRA and deployed with [Vercel](https://vercel.com/)
-* It's code primarily written using the [React.js](https://react.dev/) library.
+- It's powerd by [Next.js](https://nextjs.org/)
+- It uses [Tailwind](https://tailwindcss.com/) CSS framework.
+- It's built use CRA and deployed with [Vercel](https://vercel.com/)
+- It's code primarily written using the [React.js](https://react.dev/) library.
 
 ## Requirements 
 
 Use the following tools to set up this project: 
 
-* Node.js v20.12.0+
-* npm v10.5.0+
+- [Node.js](https://nodejs.org/) v20.12.0+
+- [npm](https://www.npmjs.com/) v10.5.0+
 
 ## Run Locally 
 
